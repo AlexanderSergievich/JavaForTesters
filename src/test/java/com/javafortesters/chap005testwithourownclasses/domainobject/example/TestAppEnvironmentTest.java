@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class TestAppEnvironmentTest {
-
+    @Test
     public void canGetUrlStatically() {
         Assert.assertEquals("Returns hard coded URL", "http://192.123.0.3:67", TestAppEnv.getUrl());
     }
