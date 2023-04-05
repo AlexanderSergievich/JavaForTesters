@@ -1,11 +1,10 @@
 package com.javafortesters.chap008selectionsanddecisions.examples;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class AssertTrueOrFalse {
+public class TestIfElse {
     @Test
     public void assertTruethy() {
         boolean truthy = false;

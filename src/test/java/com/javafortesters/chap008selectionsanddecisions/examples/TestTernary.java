@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CatsTernaryTest {
+public class TestTernary {
     @Test
     public  void catsCalculation(){
         assertEquals("1 == cat", "cat", catOrCats(1));
